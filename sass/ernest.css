@@ -1,0 +1,256 @@
+:root .m-0-a {
+  margin: 0 auto;
+}
+
+.m-b-2 {
+  margin-bottom: 2em;
+}
+
+.img-res {
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.o-p-t {
+  -o-object-position: top;
+     object-position: top;
+}
+
+.o-p-t {
+  -o-object-position: center;
+     object-position: center;
+}
+
+.o-p-b {
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
+.clr-first-slider {
+  color: #efeae7;
+}
+
+.clr-second-slider {
+  color: #efeae7;
+}
+
+.clr-third-slider {
+  color: #efeae7;
+}
+
+.spacer-100 {
+  height: 100px;
+}
+
+/* ! Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .m-b-2 {
+    margin-bottom: 1.5em;
+  }
+}
+.bg-nav-tertiary {
+  position: absolute !important;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.368627451);
+  z-index: 1;
+  width: 100%;
+  font-weight: 800;
+}
+.bg-nav-tertiary .nav-class {
+  max-width: 1450px;
+}
+
+.home--section {
+  height: auto;
+  position: relative;
+}
+.home--section .carousel-edit {
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  z-index: 0;
+}
+.home--section .carousel-edit h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 4em;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  text-shadow: 2px 0px 0px #000;
+  margin-bottom: 20px;
+}
+.home--section .carousel-edit p {
+  font-size: 1.5em;
+  color: #191a1a;
+  font-weight: 600;
+}
+
+.new-classic {
+  width: 100%;
+  height: auto;
+}
+.new-classic .new-arrivals {
+  width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
+  height: auto;
+  overflow: hidden;
+}
+.new-classic .new-arrivals .img-n-coll {
+  width: 100%;
+  height: 700px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.new-classic .classic-row {
+  width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.newsletter {
+  width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.newsletter .news-e-btn {
+  width: 100%;
+  display: flex;
+}
+.newsletter .news-e-btn input {
+  width: 65%;
+  margin: 0 15px;
+}
+.newsletter .news-e-btn button {
+  width: 100px;
+  margin: 0 auto;
+  margin-right: 10px;
+}
+
+.footer-section {
+  width: 100%;
+  height: auto;
+  background: #000;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+}
+.footer-section .footer-container {
+  width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
+}
+.footer-section .footer-container a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-section .footer-container .logo-cn {
+  margin-inline: 5px;
+}
+
+.section-oferta {
+  justify-content: center;
+}
+.section-oferta .oferta-50 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.section-oferta .oferta-50 .nr_mbrapsht {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-oferta .oferta-50 .nr_mbrapsht div {
+  font-size: 2em;
+  font-weight: 600;
+  position: relative;
+  text-align: center;
+  width: 100px;
+  margin-top: -25px;
+}
+.section-oferta .oferta-50 #clear-x {
+  display: none;
+  font-size: 1.5em;
+}
+
+.section-oferta .oferta-50 .nr_mbrapsht div::before {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  font-size: 0.4em;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  width: 100%;
+  height: 30px;
+}
+
+.nr_mbrapsht #dite::before {
+  content: "Days";
+}
+
+.nr_mbrapsht #ore::before {
+  content: "Hours";
+}
+
+.nr_mbrapsht #minuta::before {
+  content: "Minutes";
+}
+
+.nr_mbrapsht #sekonda::before {
+  content: "Seconds";
+}
+
+.footer-section .footer-container a:hover {
+  text-decoration: underline;
+}
+.footer-section .logo-cn:hover {
+  transform: scale(1.5);
+}
+
+@media (max-width: 768px) {
+  .home-section .carousel-edit h2 {
+    font-size: 2.8em;
+    margin-bottom: 0;
+    line-height: 1.3;
+  }
+  .home-section .carousel-edit p {
+    font-size: 1.1em;
+  }
+  .newsletter .news-e-btn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+  }
+  .newsletter .news-e-btn input {
+    margin-bottom: 10px;
+  }
+  .newsletter .news-e-btn button {
+    margin: 0 auto;
+    margin-block: 10px;
+  }
+}
